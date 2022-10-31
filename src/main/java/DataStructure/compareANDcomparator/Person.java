@@ -12,7 +12,6 @@ import java.util.List;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 @ToString
 public class Person implements Comparable<Person>{ // 对象实现Comparable接口，需要重写内部的abstract method
 
